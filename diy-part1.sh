@@ -16,6 +16,6 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git packages https://gitee.com/kanekican/openwrt-packages.' >>feeds.conf.default
-#echo 'src-git mysql https://github.com/dzhuqi/mysql' >>feeds.conf.default
+echo 'src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
 git clone https://github.com/iwrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
 git clone https://github.com/dzhuqi/mysql.git package/mysql
