@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://gitee.com/dzhuqi/lede4.19.82.git
+  REPO_URL: https://gitee.com/dzhuqi/lede4.9.128.git
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
