@@ -20,7 +20,7 @@ on:
         #default: 'false'
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/openwrt.git
+  REPO_URL: https://gitee.com/dzhuqi/lean-openwrt.git
   REPO_BRANCH: lede-17.01
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
