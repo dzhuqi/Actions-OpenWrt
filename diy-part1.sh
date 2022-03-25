@@ -17,4 +17,4 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git small8 https://gitee.com/dzhuqi/small-package' >>feeds.conf.default
 git clone https://gitee.com/dzhuqi/pussr.git package/pussr
-git clone https://github.com/dzhuqi/mysql.git package/mysql
+#git clone https://github.com/dzhuqi/mysql.git package/mysql
