@@ -18,3 +18,12 @@
 #echo 'src-git small8 https://gitee.com/dzhuqi/small-package' >>feeds.conf.default
 git clone https://gitee.com/dzhuqi/pussr.git package/pussr
 #git clone https://github.com/dzhuqi/mysql.git package/mysql
+
+## 解除系统限制
+ulimit -u 10000
+ulimit -n 4096
+ulimit -d unlimited
+ulimit -m unlimited
+ulimit -s unlimited
+ulimit -t unlimited
+ulimit -v unlimited
