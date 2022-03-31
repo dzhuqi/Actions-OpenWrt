@@ -19,7 +19,7 @@ env:
   REPO_URL: https://github.com/Lienol/openwrt.git
   REPO_BRANCH: 21.02
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: .config
+  CONFIG_FILE: .config-n1
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   TZ: Asia/Shanghai
