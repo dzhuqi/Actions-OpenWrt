@@ -16,9 +16,9 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git small8 https://gitee.com/dzhuqi/small-package' >>feeds.conf.default
-git clone https://github.com/dzhuqi/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
-git clone https://github.com/dzhuqi/mysql.git package/mysql
-git clone https://github.com/fw876/helloworld package/helloworld 
+#git clone https://github.com/dzhuqi/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
+#git clone https://github.com/dzhuqi/mysql.git package/mysql
+git clone https://gitee.com/dzhuqi/aa.git package/aa
 
 ## 解除系统限制
 ulimit -u 10000
