@@ -18,7 +18,7 @@
 echo 'src-git small8 https://github.com/kenzok8/small-package' >>feeds.conf.default
 #git clone https://github.com/dzhuqi/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
 git clone https://github.com/dzhuqi/mysql.git package/mysql
-
+src-git luci-app-ddns-go https://github.com/sirpdboy/luci-app-ddns-go
 
 ## 解除系统限制
 ulimit -u 10000
