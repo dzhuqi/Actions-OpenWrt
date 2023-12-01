@@ -20,7 +20,7 @@
 #git clone https://github.com/dzhuqi/mysql.git package/mysql
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 src-git luci-app-ddns-go https://github.com/sirpdboy/luci-app-ddns-go
-
+git clone https://github.com/dzhuqi/mysql package/mysql
 ## 解除系统限制
 ulimit -u 10000
 ulimit -n 4096
