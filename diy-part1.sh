@@ -15,7 +15,7 @@
 
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-echo 'src-git kenzok8 https://github.com/kenzok8/small-package' >>feeds.conf.default
+echo 'src-git kenzok8 https://github.com/kenzok8/small-package'>>feeds.conf.default
 #git clone https://github.com/kenzok8/small-package package/small-package
 #git clone https://github.com/dzhuqi/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
 #git clone https://github.com/dzhuqi/mysql.git package/mysql
