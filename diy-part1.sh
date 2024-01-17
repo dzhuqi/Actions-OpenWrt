@@ -11,10 +11,11 @@
 #
 
 # Uncomment a feed source
-#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+#sed -i "/helloworld/d" "feeds.conf.default"
+#echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
 
 # Add a feed source
-git clone https://github.com/kenzok8/small-package package/small-package
+git clone https://github.com/liuran001/openwrt-packages package/liuran001
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #git clone https://github.com/rozhuk-im/msd_litea package/msd_litea
 #git clone https://github.com/dzhuqi/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
