@@ -182,7 +182,7 @@ jobs:
         echo "::set-output name=url::$(cat wetransfer.log | grep https | cut -f3 -d" ")"
 
     - name: 生成固件标签
-        id: tag
+      id: tag
       if: steps.compile.outputs.status == 'success' && env.UPLOAD_RELEASE == 'true' && !cancelled()
       run: |
         echo "== Time：$(date +'%Y-%m-%d %H:%M:%S') =="
