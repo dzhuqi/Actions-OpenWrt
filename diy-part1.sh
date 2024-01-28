@@ -26,7 +26,9 @@ git clone https://github.com/dzhuqi/mysql.git package/mysql
 #git clone https://github.com/f8q8/luci-app-autoreboot package/luci-app-autoreboot
 #git clone https://github.com/lisaac/luci-app-dockerman package/luci-app-dockerman
 #git clone https://github.com/yasum2006/luci-app-passwall package/luci-app-passwall
-
+# 替换默认主题
+rm -rf package/lean/luci-theme-argon 
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  package/lean/luci-theme-argon
 ## 解除系统限制
 ulimit -u 10000
 ulimit -n 4096
