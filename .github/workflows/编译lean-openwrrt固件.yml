@@ -13,7 +13,7 @@ name: 编译lean-openwrrt固件
 on:
   repository_dispatch:
   workflow_dispatch:
-    inputs:
+    #inputs:
       #ssh:
         #description: 'SSH connection to Actions'
         #required: false
