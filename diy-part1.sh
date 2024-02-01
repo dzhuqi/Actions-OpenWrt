@@ -12,15 +12,15 @@
 
 # Uncomment a feed source
 #sed -i "/helloworld/d" "feeds.conf.default"
-#echo "src-git dzhuqi https://github.com/dzhuqi/12.git" >> "feeds.conf.default"
+ sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
  #sed -i '$a src-git smpackage https://github.com/dzhuqi/12.git' feeds.conf.default
 # Add a feed source
 #git clone https://github.com/liuran001/openwrt-packages package/liuran001
-echo 'src-git dzhuqi https://github.com/dzhuqi/12.git' >>feeds.conf.default
+#echo 'src-git dzhuqi https://github.com/dzhuqi/12.git' >>feeds.conf.default
 
 #git clone https://github.com/rozhuk-im/msd_litea package/msd_litea
 #git clone https://github.com/dzhuqi/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
-git clone https://github.com/dzhuqi/mysql.git package/mysql
+#git clone https://github.com/dzhuqi/mysql.git package/mysql
 #git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 #git clone https://github.com/sirpdboy/luci-app-ddns-go package/luci-app-ddns-go
 #git clone https://github.com/f8q8/luci-app-autoreboot package/luci-app-autoreboot
