@@ -18,8 +18,8 @@
 #git clone https://github.com/liuran001/openwrt-packages package/liuran001
 #echo 'src-git dzhuqi https://github.com/dzhuqi/12.git' >>feeds.conf.default
 
-git clone https://github.com/rozhuk-im/msd_lite package/msd_lite
-git clone https://github.com/ximiTech/luci-app-msd_lite package/luci-app-msd_lite
+git clone https://github.com/dzhuqi/msd_lite package/msd_lite
+#git clone https://github.com/ximiTech/luci-app-msd_lite package/luci-app-msd_lite
 #git clone https://github.com/dzhuqi/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
 #git clone https://github.com/dzhuqi/mysql.git package/mysql
 #git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
