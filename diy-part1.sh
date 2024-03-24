@@ -14,7 +14,7 @@
 
 # Add a feed source
 
-
+git clone https://github.com/leshanydy2022/luci-app-adguardhome.git package/luci-app-adguardhome
 git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
 
 # 替换默认主题
