@@ -14,9 +14,9 @@
 
 # Add a feed source
 
-git clone https://github.com/leshanydy2022/luci-app-adguardhome.git package/luci-app-adguardhome
-git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
-git clone https://github.com/dzhuqi/mysql.git package/mysql
+#git clone https://github.com/leshanydy2022/luci-app-adguardhome.git package/luci-app-adguardhome
+＃git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
+#git clone https://github.com/dzhuqi/mysql.git package/mysql
 # 替换默认主题
 #rm -rf package/lean/luci-theme-argon 
 #git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  package/lean/luci-theme-argon
