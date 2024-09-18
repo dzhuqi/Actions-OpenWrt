@@ -13,7 +13,7 @@
 
 
 # Add a feed source
-
+ git clone https://github.com/QC3284/luci-app-uugamebooster.git package/luci-app-uugamebooster
 #git clone https://github.com/leshanydy2022/luci-app-adguardhome.git package/luci-app-adguardhome
 ＃git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
 #git clone https://github.com/dzhuqi/mysql.git package/mysql
